@@ -36,7 +36,8 @@
 
 -(NSArray<Menu*>*) menus {
     return @[[Menu initWithName:@"KVO、KVC" className:@"KVC_KVOViewController"],
-             [Menu initWithName:@"消息转发" className:@"MessageForwardViewController"]];
+             [Menu initWithName:@"消息转发" className:@"MessageForwardViewController"],
+             [Menu initWithName:@"static" className:@"StaticViewController"]];
 }
 
 @end
