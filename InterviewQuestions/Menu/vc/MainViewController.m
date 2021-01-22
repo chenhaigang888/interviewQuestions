@@ -8,6 +8,7 @@
 #import "MainViewController.h"
 #import "CHGAdapter.h"
 #import "Menu.h"
+#import "MessageForwardViewController.h"
 
 @interface MainViewController ()
 
@@ -34,7 +35,8 @@
 }
 
 -(NSArray<Menu*>*) menus {
-    return @[[Menu initWithName:@"KVO、KVC" className:@"KVC_KVOViewController"]];
+    return @[[Menu initWithName:@"KVO、KVC" className:@"KVC_KVOViewController"],
+             [Menu initWithName:@"消息转发" className:@"MessageForwardViewController"]];
 }
 
 @end

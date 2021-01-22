@@ -24,6 +24,12 @@
 		85E40A4725BA5C7F00ABB6BF /* KVO、KVC.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85E40A4625BA5C7F00ABB6BF /* KVO、KVC.txt */; };
 		85E40A4B25BA644800ABB6BF /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A4A25BA644800ABB6BF /* Animal.m */; };
 		85E40A4F25BA711300ABB6BF /* Animal2.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A4E25BA711300ABB6BF /* Animal2.m */; };
+		85E40A5625BA750800ABB6BF /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A5525BA750800ABB6BF /* Message.m */; };
+		85E40A5B25BA752900ABB6BF /* MessageForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A5925BA752900ABB6BF /* MessageForwardViewController.m */; };
+		85E40A5C25BA752900ABB6BF /* MessageForwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E40A5A25BA752900ABB6BF /* MessageForwardViewController.xib */; };
+		85E40A6025BA753B00ABB6BF /* SubMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A5F25BA753B00ABB6BF /* SubMessage.m */; };
+		85E40A6425BA84D800ABB6BF /* HandlerNoMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A6325BA84D800ABB6BF /* HandlerNoMethod.m */; };
+		85E40A6725BAA52200ABB6BF /* 消息转发流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E40A6625BAA52200ABB6BF /* 消息转发流程图.png */; };
 		AC2116FA5CF030701384C05F /* Pods_InterviewQuestions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055D24005023391C6EECE9B1 /* Pods_InterviewQuestions.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +64,16 @@
 		85E40A4A25BA644800ABB6BF /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		85E40A4D25BA711300ABB6BF /* Animal2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal2.h; sourceTree = "<group>"; };
 		85E40A4E25BA711300ABB6BF /* Animal2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal2.m; sourceTree = "<group>"; };
+		85E40A5425BA750800ABB6BF /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		85E40A5525BA750800ABB6BF /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		85E40A5825BA752900ABB6BF /* MessageForwardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardViewController.h; sourceTree = "<group>"; };
+		85E40A5925BA752900ABB6BF /* MessageForwardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardViewController.m; sourceTree = "<group>"; };
+		85E40A5A25BA752900ABB6BF /* MessageForwardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageForwardViewController.xib; sourceTree = "<group>"; };
+		85E40A5E25BA753B00ABB6BF /* SubMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubMessage.h; sourceTree = "<group>"; };
+		85E40A5F25BA753B00ABB6BF /* SubMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubMessage.m; sourceTree = "<group>"; };
+		85E40A6225BA84D800ABB6BF /* HandlerNoMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandlerNoMethod.h; sourceTree = "<group>"; };
+		85E40A6325BA84D800ABB6BF /* HandlerNoMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandlerNoMethod.m; sourceTree = "<group>"; };
+		85E40A6625BAA52200ABB6BF /* 消息转发流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息转发流程图.png"; sourceTree = "<group>"; };
 		8E2A93C4F62E41B5A57BA623 /* Pods-InterviewQuestions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions.release.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions.release.xcconfig"; sourceTree = "<group>"; };
 		9DEADBB39A1B40CF74811B8A /* Pods-InterviewQuestions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions.debug.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +162,7 @@
 		8583F0D125B97E720075D289 /* InterviewQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				85E40A5125BA74E600ABB6BF /* 消息转发 */,
 				858347CF25B981D500126E19 /* KVO、KVC */,
 				8583F0EC25B97E780075D289 /* Menu */,
 				8583F0D225B97E720075D289 /* AppDelegate.h */,
@@ -189,6 +206,39 @@
 				851558E125B97EDA005B35F0 /* MenuTableViewCell.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		85E40A5125BA74E600ABB6BF /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				85E40A6625BAA52200ABB6BF /* 消息转发流程图.png */,
+				85E40A5325BA74FD00ABB6BF /* model */,
+				85E40A5225BA74F700ABB6BF /* vc */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
+		85E40A5225BA74F700ABB6BF /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				85E40A5825BA752900ABB6BF /* MessageForwardViewController.h */,
+				85E40A5925BA752900ABB6BF /* MessageForwardViewController.m */,
+				85E40A5A25BA752900ABB6BF /* MessageForwardViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		85E40A5325BA74FD00ABB6BF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				85E40A5425BA750800ABB6BF /* Message.h */,
+				85E40A5525BA750800ABB6BF /* Message.m */,
+				85E40A5E25BA753B00ABB6BF /* SubMessage.h */,
+				85E40A5F25BA753B00ABB6BF /* SubMessage.m */,
+				85E40A6225BA84D800ABB6BF /* HandlerNoMethod.h */,
+				85E40A6325BA84D800ABB6BF /* HandlerNoMethod.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		9D546922E9A8635A92FA0D92 /* Pods */ = {
@@ -260,7 +310,9 @@
 			files = (
 				858347DA25B9823100126E19 /* KVC_KVOViewController.xib in Resources */,
 				8583F0E225B97E720075D289 /* LaunchScreen.storyboard in Resources */,
+				85E40A5C25BA752900ABB6BF /* MessageForwardViewController.xib in Resources */,
 				85E40A4725BA5C7F00ABB6BF /* KVO、KVC.txt in Resources */,
+				85E40A6725BAA52200ABB6BF /* 消息转发流程图.png in Resources */,
 				858347E725B986B100126E19 /* MainViewController.xib in Resources */,
 				8583F0DF25B97E720075D289 /* Assets.xcassets in Resources */,
 				8583F0DD25B97E720075D289 /* Main.storyboard in Resources */,
@@ -317,15 +369,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				858347D925B9823100126E19 /* KVC_KVOViewController.m in Sources */,
+				85E40A5625BA750800ABB6BF /* Message.m in Sources */,
 				858347DF25B9828100126E19 /* Personal.m in Sources */,
 				85E40A4F25BA711300ABB6BF /* Animal2.m in Sources */,
+				85E40A5B25BA752900ABB6BF /* MessageForwardViewController.m in Sources */,
 				8583F0DA25B97E720075D289 /* ViewController.m in Sources */,
 				8583F0D425B97E720075D289 /* AppDelegate.m in Sources */,
 				858347E625B986B100126E19 /* MainViewController.m in Sources */,
+				85E40A6425BA84D800ABB6BF /* HandlerNoMethod.m in Sources */,
 				851558E625B97EE9005B35F0 /* Menu.m in Sources */,
 				851558E225B97EDA005B35F0 /* MenuTableViewCell.m in Sources */,
 				85E40A4B25BA644800ABB6BF /* Animal.m in Sources */,
 				8583F0E525B97E720075D289 /* main.m in Sources */,
+				85E40A6025BA753B00ABB6BF /* SubMessage.m in Sources */,
 				8583F0D725B97E720075D289 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
