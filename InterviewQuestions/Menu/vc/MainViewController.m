@@ -19,7 +19,6 @@
 @implementation MainViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     self.tableView.tableViewAdapter.headerHeight = 0;
     self.tableView.tableViewAdapter.footerHeight = 0;
