@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851558E225B97EDA005B35F0 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 851558E125B97EDA005B35F0 /* MenuTableViewCell.m */; };
+		851558E625B97EE9005B35F0 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 851558E525B97EE9005B35F0 /* Menu.m */; };
+		858347D925B9823100126E19 /* KVC_KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858347D725B9823100126E19 /* KVC_KVOViewController.m */; };
+		858347DA25B9823100126E19 /* KVC_KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858347D825B9823100126E19 /* KVC_KVOViewController.xib */; };
+		858347DF25B9828100126E19 /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = 858347DE25B9828100126E19 /* Personal.m */; };
+		858347E625B986B100126E19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858347E425B986B100126E19 /* MainViewController.m */; };
+		858347E725B986B100126E19 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858347E525B986B100126E19 /* MainViewController.xib */; };
 		8583F0D425B97E720075D289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583F0D325B97E720075D289 /* AppDelegate.m */; };
 		8583F0D725B97E720075D289 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583F0D625B97E720075D289 /* SceneDelegate.m */; };
 		8583F0DA25B97E720075D289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583F0D925B97E720075D289 /* ViewController.m */; };
@@ -14,9 +21,26 @@
 		8583F0DF25B97E720075D289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8583F0DE25B97E720075D289 /* Assets.xcassets */; };
 		8583F0E225B97E720075D289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8583F0E025B97E720075D289 /* LaunchScreen.storyboard */; };
 		8583F0E525B97E720075D289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583F0E425B97E720075D289 /* main.m */; };
+		85E40A4725BA5C7F00ABB6BF /* KVO、KVC.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85E40A4625BA5C7F00ABB6BF /* KVO、KVC.txt */; };
+		85E40A4B25BA644800ABB6BF /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A4A25BA644800ABB6BF /* Animal.m */; };
+		85E40A4F25BA711300ABB6BF /* Animal2.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E40A4E25BA711300ABB6BF /* Animal2.m */; };
+		AC2116FA5CF030701384C05F /* Pods_InterviewQuestions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055D24005023391C6EECE9B1 /* Pods_InterviewQuestions.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055D24005023391C6EECE9B1 /* Pods_InterviewQuestions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewQuestions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851558E025B97EDA005B35F0 /* MenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		851558E125B97EDA005B35F0 /* MenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		851558E425B97EE9005B35F0 /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		851558E525B97EE9005B35F0 /* Menu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		858347D625B9823100126E19 /* KVC_KVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_KVOViewController.h; sourceTree = "<group>"; };
+		858347D725B9823100126E19 /* KVC_KVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_KVOViewController.m; sourceTree = "<group>"; };
+		858347D825B9823100126E19 /* KVC_KVOViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVC_KVOViewController.xib; sourceTree = "<group>"; };
+		858347DD25B9828100126E19 /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
+		858347DE25B9828100126E19 /* Personal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal.m; sourceTree = "<group>"; };
+		858347E325B986B100126E19 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		858347E425B986B100126E19 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		858347E525B986B100126E19 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8583F0CF25B97E720075D289 /* InterviewQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8583F0D225B97E720075D289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8583F0D325B97E720075D289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +53,13 @@
 		8583F0E125B97E720075D289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8583F0E325B97E720075D289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8583F0E425B97E720075D289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85E40A4625BA5C7F00ABB6BF /* KVO、KVC.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "KVO、KVC.txt"; sourceTree = "<group>"; };
+		85E40A4925BA644800ABB6BF /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		85E40A4A25BA644800ABB6BF /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		85E40A4D25BA711300ABB6BF /* Animal2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal2.h; sourceTree = "<group>"; };
+		85E40A4E25BA711300ABB6BF /* Animal2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal2.m; sourceTree = "<group>"; };
+		8E2A93C4F62E41B5A57BA623 /* Pods-InterviewQuestions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions.release.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions.release.xcconfig"; sourceTree = "<group>"; };
+		9DEADBB39A1B40CF74811B8A /* Pods-InterviewQuestions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions.debug.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +67,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2116FA5CF030701384C05F /* Pods_InterviewQuestions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A523B1B8480A199E4D9A15E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				055D24005023391C6EECE9B1 /* Pods_InterviewQuestions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858347CF25B981D500126E19 /* KVO、KVC */ = {
+			isa = PBXGroup;
+			children = (
+				858347DC25B9826C00126E19 /* model */,
+				858347D025B981E300126E19 /* vc */,
+			);
+			path = "KVO、KVC";
+			sourceTree = "<group>";
+		};
+		858347D025B981E300126E19 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				858347D625B9823100126E19 /* KVC_KVOViewController.h */,
+				858347D725B9823100126E19 /* KVC_KVOViewController.m */,
+				858347D825B9823100126E19 /* KVC_KVOViewController.xib */,
+				85E40A4625BA5C7F00ABB6BF /* KVO、KVC.txt */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		858347DC25B9826C00126E19 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				858347DD25B9828100126E19 /* Personal.h */,
+				858347DE25B9828100126E19 /* Personal.m */,
+				85E40A4925BA644800ABB6BF /* Animal.h */,
+				85E40A4A25BA644800ABB6BF /* Animal.m */,
+				85E40A4D25BA711300ABB6BF /* Animal2.h */,
+				85E40A4E25BA711300ABB6BF /* Animal2.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		858347E225B986A200126E19 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				858347E325B986B100126E19 /* MainViewController.h */,
+				858347E425B986B100126E19 /* MainViewController.m */,
+				858347E525B986B100126E19 /* MainViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
 		8583F0C625B97E720075D289 = {
 			isa = PBXGroup;
 			children = (
 				8583F0D125B97E720075D289 /* InterviewQuestions */,
 				8583F0D025B97E720075D289 /* Products */,
+				9D546922E9A8635A92FA0D92 /* Pods */,
+				1A523B1B8480A199E4D9A15E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +146,8 @@
 		8583F0D125B97E720075D289 /* InterviewQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				858347CF25B981D500126E19 /* KVO、KVC */,
+				8583F0EC25B97E780075D289 /* Menu */,
 				8583F0D225B97E720075D289 /* AppDelegate.h */,
 				8583F0D325B97E720075D289 /* AppDelegate.m */,
 				8583F0D525B97E720075D289 /* SceneDelegate.h */,
@@ -76,6 +163,43 @@
 			path = InterviewQuestions;
 			sourceTree = "<group>";
 		};
+		8583F0EC25B97E780075D289 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				858347E225B986A200126E19 /* vc */,
+				8583F0EF25B97E8F0075D289 /* view */,
+				8583F0ED25B97E7F0075D289 /* model */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8583F0ED25B97E7F0075D289 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				851558E425B97EE9005B35F0 /* Menu.h */,
+				851558E525B97EE9005B35F0 /* Menu.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8583F0EF25B97E8F0075D289 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				851558E025B97EDA005B35F0 /* MenuTableViewCell.h */,
+				851558E125B97EDA005B35F0 /* MenuTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9D546922E9A8635A92FA0D92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DEADBB39A1B40CF74811B8A /* Pods-InterviewQuestions.debug.xcconfig */,
+				8E2A93C4F62E41B5A57BA623 /* Pods-InterviewQuestions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8583F0E825B97E720075D289 /* Build configuration list for PBXNativeTarget "InterviewQuestions" */;
 			buildPhases = (
+				A16377317D25E1650543289A /* [CP] Check Pods Manifest.lock */,
 				8583F0CB25B97E720075D289 /* Sources */,
 				8583F0CC25B97E720075D289 /* Frameworks */,
 				8583F0CD25B97E720075D289 /* Resources */,
+				A4D6FC81F979876D7B2856F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,7 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858347DA25B9823100126E19 /* KVC_KVOViewController.xib in Resources */,
 				8583F0E225B97E720075D289 /* LaunchScreen.storyboard in Resources */,
+				85E40A4725BA5C7F00ABB6BF /* KVO、KVC.txt in Resources */,
+				858347E725B986B100126E19 /* MainViewController.xib in Resources */,
 				8583F0DF25B97E720075D289 /* Assets.xcassets in Resources */,
 				8583F0DD25B97E720075D289 /* Main.storyboard in Resources */,
 			);
@@ -140,13 +269,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A16377317D25E1650543289A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterviewQuestions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D6FC81F979876D7B2856F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8583F0CB25B97E720075D289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858347D925B9823100126E19 /* KVC_KVOViewController.m in Sources */,
+				858347DF25B9828100126E19 /* Personal.m in Sources */,
+				85E40A4F25BA711300ABB6BF /* Animal2.m in Sources */,
 				8583F0DA25B97E720075D289 /* ViewController.m in Sources */,
 				8583F0D425B97E720075D289 /* AppDelegate.m in Sources */,
+				858347E625B986B100126E19 /* MainViewController.m in Sources */,
+				851558E625B97EE9005B35F0 /* Menu.m in Sources */,
+				851558E225B97EDA005B35F0 /* MenuTableViewCell.m in Sources */,
+				85E40A4B25BA644800ABB6BF /* Animal.m in Sources */,
 				8583F0E525B97E720075D289 /* main.m in Sources */,
 				8583F0D725B97E720075D289 /* SceneDelegate.m in Sources */,
 			);
@@ -288,12 +466,14 @@
 		};
 		8583F0E925B97E720075D289 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEADBB39A1B40CF74811B8A /* Pods-InterviewQuestions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 334V4U3KT6;
 				INFOPLIST_FILE = InterviewQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +486,14 @@
 		};
 		8583F0EA25B97E720075D289 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2A93C4F62E41B5A57BA623 /* Pods-InterviewQuestions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 334V4U3KT6;
 				INFOPLIST_FILE = InterviewQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

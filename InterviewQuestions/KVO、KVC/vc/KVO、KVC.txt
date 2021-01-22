@@ -1,0 +1,24 @@
+
+/**
+ 1.KVO的实现原理。
+ 当需要观察对象某一个属性的时候，系统会在运行期间动态的创建被观察对象的子类，并且重新被观察对象的set方法。键值观察的通知依赖于NSObject的2个方法：willChangeValueForKey和didChangeValueForKey。willChangeValueForKey用于记录旧值，didChangeValueForKey用于记录新值。
+
+ 2.KVC会触发KVO吗？
+ 由于KVC会调用willChangeValueForKey和didChangeValueForKey2个方法，因此KVC会触发KVO
+
+ 3.直接修改成员变量会触发KVC吗？
+ 不会触发KVO
+
+ 4.如何手动触发KVO
+ 手动调用willChangeValueForKey和didChangeValueForKey
+
+ 5.KVC的赋值和取值过程是怎样的？原理是什么？
+ KVC的赋值过程是：
+     1.先找setKey:、_setKey:这2个方法，如果找到了则直掉调用这2个方法。
+     2.如果没有找到setKey:、_setKey:这2个方法，则会调用类方法accessInstanceVariablesDirectly，如果返回YES则直接访问实例变量_key,_isKey,key,isKey的顺序赋值。如果以上都失败则调用setUndefinedKey:方法并且抛出NSUnknownKeyException异常
+
+ KVC的取值过程：
+     1.首先按照getKey,key,isKey,_key的顺序查找方法，如果找到则直接调用返回值。
+     2.如果找不到方法则会调用accessInstanceVariablesDirectly方法如果返回YES则按照_key,_isKey，key，isKey的顺序取值，如果取不到则调用UndefinedValueForKey:方法并且抛出NSUnknownKeyException异常
+     
+ */
