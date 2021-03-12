@@ -1,7 +1,7 @@
 
 /**
  1.KVO的实现原理。
- 当需要观察对象某一个属性的时候，系统会在运行期间动态的创建被观察对象的子类，并且重新被观察对象的set方法。键值观察的通知依赖于NSObject的2个方法：willChangeValueForKey和didChangeValueForKey。willChangeValueForKey用于记录旧值，didChangeValueForKey用于记录新值。
+ 当需要观察对象某一个属性的时候，系统会在运行期间动态的创建被观察对象的子类，并且重写被观察对象的set方法。键值观察的通知依赖于NSObject的2个方法：willChangeValueForKey和didChangeValueForKey。willChangeValueForKey用于记录旧值，didChangeValueForKey用于记录新值。
 
  2.KVC会触发KVO吗？
  由于KVC会调用willChangeValueForKey和didChangeValueForKey2个方法，因此KVC会触发KVO
